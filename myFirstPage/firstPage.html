@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/9ab3eccc00.js" crossorigin="anonymous"></script>
+	<title>My First Page</title>
+</head>
+<body>
+	<audio controls autoplay="">
+  		<source src="lofi1.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+	<header>
+		<h1>This is my first page <i class="fa-solid fa-thumbs-up fa-lg"></i></h1>
+	</header>
+	<hr>
+	<!-- 	Thuộc tính target của tag <a>:
+		name: tải trang web vào frame có tên NAME
+		_blank: tải trang web vào cửa sổ mới
+		_parent: tải trang web vào cửa sổ cha của nó
+		_self: tải trang web vào chính cửa sổ hiện hành
+		_top: tải trang web vào cửa số cao nhất -->
+	<details>
+			<summary>Giới thiệu về trang web</summary>
+			<div>
+				<i class="fas fa-address-card fa-lg"></i>
+				&nbsp;Đây là trang web đầu tiên của Minh Đẹp Trai, nếu bạn muốn có một công cụ tìm kiếm mạnh mẽ thì thật tuyệt vời... tôi chưa làm đc điều đó, nhưng thằng này thì làm được:
+				<a href="https://www.google.com/" target="_blank">Google</a>
+				=))))
+			</div>
+	</details>
+	
+	<h3> Here are some demo link:</h3>
+	
+	<ol>
+		<li>
+                    <a href="https://www.youtube.com/" target="_blank" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+		<li>
+                    <a href="https://www.google.com/" target="_blank" aria-label="Google"><i class="fa-brands fa-google"></i></a>
+                </li>
+	</ol>
+
+	<hr>
+	<h3> Order List(Danh sách có thứ tự):</h3>
+	<b> Numbers List</b>
+	<ol>
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ol>
+	<b> Letters List</b>
+	<ol type="a">
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ol>
+	<b> Roman Numbers List</b>
+	<ol type="i">
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ol>
+
+	<hr>
+	<h3> Unorder List(Danh sách không có thứ tự):</h3>
+	<b> Disc bullets list:</b>
+	<ul type="Disc">
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ul>
+	<b> Circle bullets list:</b>
+	<ul type="Circle">
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ul>
+	<b> Square bullets list:</b>
+	<ul type="Square">
+		<li>apple</li>
+		<li>banana</li>
+		<li>lemons</li>
+	</ul>
+
+	<hr>
+	<h3> A Definition List(Danh sách tự định nghĩa):</h3>
+	<dl>
+		<b>
+			<dt>Animal</dt>
+		</b>
+			<dd>Cat</dd>
+			<dd>Dog</dd>
+			<dd>...</dd>
+		<b>
+			<dt>Fruit</dt>
+		</b>
+			<dd>Banana</dd>
+			<dd>Apple</dd>
+			<dd>...</dd>
+	</dl>
+
+	<hr>
+	<h3> Trang web có vẻ hơi nhàm chán, mình sẽ thêm một số bức ảnh:</h3>
+	<b>Pic 1:</b>
+	<br>
+	<img src="3.png" alt="Mạng lag quá không load đc ảnh" style="width: 288px; height: 162px;">
+	<br>
+	<b>Pic 2:</b>
+	<br>
+	<img src="6.png" alt="Mạng lag quá không load đc ảnh" width="50%">
+
+	<div style="front-size:20px; color:red">
+		<p> dinh nghia the div la gi </p>
+		<p> tac dung cua the div trong HTML </p>
+		<p> phan biet su khac nhau giua the span va the div </p>
+	</div>
+
+	<h3>Video</h3>
+	<video src="MemeOk.mp4" width="360" controls>
+		Your browser does not support the <code>video</code>
+	</video>
+	<br>
+
+	<h3>Audio</h3>
+	<audio src="lofi1.mp3" controls>
+		Your browser does not support the <code>audio</code>
+	</audio>
+	<audio src="lofi1.mp3#t=00:30" controls>
+		Your browser does not support the <code>audio</code>
+	</audio>
+	<br>
+
+	<h3>Table</h3>
+	<table>
+		<tr><th>Row One</th><th>Row Two</th><th>Row Three</th></tr>
+		<tr><td>One</td><td>Two</td><td>Three</td></tr>
+		<tr><td>Four</td><td>Five</td><td>Six</td></tr>
+		<tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+	</table>
+	<br>
+
+	<table border="1">
+		<tr>
+			<th>Childs name:	</th><th>Parent's Name:	</th>
+		</tr>
+		<tr>
+			<td rowspan="2">Catherine</td><td>Michael McCarthy</td>
+		</tr>
+		<tr>
+			<td>Colleen McCarthy</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Edward</td><td>Catherine Howard</td>
+		</tr>
+		<tr>
+			<td>Jeff Howard</td>
+		</tr>
+	</table>
+
+	<footer>
+		&copy: By Minh
+		<br>
+		For more information, go to: 
+		<a href="https://www.google.com/" target="_blank">Google</a>
+	</footer>
+
+	
+</body>
+</html>
